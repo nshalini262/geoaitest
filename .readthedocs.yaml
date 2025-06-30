@@ -1,6 +1,7 @@
 version: 2
-mkdocs:
-  configuration: mkdocs.yml
+sphinx:
+  # Path to your Sphinx configuration file.
+  configuration: docs/conf.py
 python:
   install:
     - requirements: source/rtd_requirements.txt
